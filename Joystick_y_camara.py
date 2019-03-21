@@ -24,7 +24,7 @@ args = vars(ap.parse_args())
 
 
 # Este cacho es solo para decirle al algoritmo los tonos de 
-# verde que quiero que identifique. Además inicializa los puntos a trackear
+# verde que quiero que identifique. Ademas inicializa los puntos a trackear
 greenLower = (29, 86, 6)
 greenUpper = (64, 255, 255)
 pts = deque(maxlen=args["buffer"])
@@ -134,7 +134,7 @@ while True:
 
 	# Pilla el frame actual(Teneis que cuidar el sleep que hay al final)
 	# Si el sleep es muy grande se tomara un frame por cada tiempo de sleep
-	# Si el sleep es mas pequeño pues habra mas frames por segundo
+	# Si el sleep es mas pequeno pues habra mas frames por segundo
 	(grabbed, frame) = camera.read()
 
 	# Si se esta viendo el video pero no se coge ningun frame significara
