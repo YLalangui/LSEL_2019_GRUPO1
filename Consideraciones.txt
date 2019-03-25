@@ -1,0 +1,5 @@
+terminal => ssh -X -C pi@172.16.2.XX
+	 => workon cv
+	 => sudo ./insmod.sh
+	 => python XXXX.py
+
